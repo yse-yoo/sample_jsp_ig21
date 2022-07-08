@@ -29,6 +29,8 @@ public class Login extends HttpServlet {
 			System.out.println("ログイン成功");
 		} else {
 			System.out.println("ログイン失敗");
+			String uri = request.getContextPath() + "/login.jsp";
+			response.sendRedirect(uri);
 		}
 	}
 
