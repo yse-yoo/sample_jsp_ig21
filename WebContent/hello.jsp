@@ -11,6 +11,7 @@ int amount = 3;
 int totalPrice = price * amount;
 %>
 
+
 <!DOCTYPE html>
 <html>
 <head>

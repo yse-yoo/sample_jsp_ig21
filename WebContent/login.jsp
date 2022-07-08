@@ -12,7 +12,10 @@
 </head>
 <body>
 
-  <main class="container">
+  <main class="w-50 m-auto">
+  	<div class="mt-5 text-center">
+  		<h2>ログイン</h2>
+  	</div>
     <form action="./auth.jsp" method="post">
       <div class="mt-2 form-floating">
         <input 
