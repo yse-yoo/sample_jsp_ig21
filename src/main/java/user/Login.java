@@ -11,6 +11,9 @@ import javax.servlet.http.HttpServletResponse;
 @WebServlet("/login/auth")
 public class Login extends HttpServlet {
 	private static final long serialVersionUID = 1L;
+	
+	final static String USER_EMAIL = "test@example.com";
+	final static String USER_PASS = "pass12345";
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("POST!!!!!");
@@ -21,6 +24,12 @@ public class Login extends HttpServlet {
 		
 		System.out.println(email);
 		System.out.println(password);
+		
+		if (email.equals(USER_EMAIL)) {
+			System.out.println("ログイン成功");
+		} else {
+			System.out.println("ログイン失敗");
+		}
 	}
 
 }
