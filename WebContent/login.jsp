@@ -16,7 +16,7 @@
   	<div class="mt-5 text-center">
   		<h2>ログイン</h2>
   	</div>
-    <form action="./auth.jsp" method="post">
+    <form action="./login/auth" method="post">
       <div class="mt-2 form-floating">
         <input 
           class="form-control border-0 border-bottom rounded-0" 
