@@ -25,7 +25,7 @@ public class Login extends HttpServlet {
 		System.out.println(email);
 		System.out.println(password);
 		
-		if (email.equals(USER_EMAIL)) {
+		if (email.equals(USER_EMAIL) && password.equals(USER_PASS)) {
 			System.out.println("ログイン成功");
 		} else {
 			System.out.println("ログイン失敗");
